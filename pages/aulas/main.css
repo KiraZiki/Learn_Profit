@@ -34,7 +34,7 @@ header{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 98.8%;
     height: 11vh;
     background-color: var(--cor2);
     padding: 0.5rem;
@@ -51,23 +51,23 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 24em;
+    width: 12em;
     height: 70%;
     border-radius: 0 1.5em 1.5em 0;
     background-color: var(--cor4);
 }
-.aula, .suport{
+.suport{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48%;
+    width: 92%;
     height: 85%;
     transition: .25s;
 }
 .suport{
     border-radius: 0 2em 2em 0;
 }
-.aula:hover, .suport:hover{
+.suport:hover{
     background-color: var(--cor2);
 }
 
@@ -85,48 +85,4 @@ header{
 }
 a{
     text-decoration: none;
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    width: 100%;
-    height: 173vh;
-    margin-top: 11vh;
-}
-
-.sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: 94vh;
-    border-radius: 0 0 2em 2em;
-    background-color: var(--cor4);
-}
-.sobre .timg{
-    display: flex;
-    width: 10em;
-    height: 10%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 1em 1em;
-    background-color: var(--cor3);
-}
-.sobre p{
-    text-align: center;
-    width: 90%;
-    height: 85%;
-    margin-top: 5%;
-}
-
-.owners{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 94vh;
 }
