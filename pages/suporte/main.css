@@ -31,7 +31,6 @@ body{
 }
 
 header{
-    z-index: 1;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -52,23 +51,23 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 24em;
+    width: 12em;
     height: 65%;
     border-radius: 0 2em 2em 0;
     background-color: var(--cor4);
 }
-.aula, .suport{
+.suport{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48%;
+    width: 90%;
     height: 85%;
     transition: .25s;
 }
 .suport{
     border-radius: 0 2em 2em 0;
 }
-.aula:hover, .suport:hover{
+.suport:hover{
     background-color: var(--cor2);
 }
 
@@ -86,70 +85,4 @@ header{
 }
 a{
     text-decoration: none;
-}
-
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    width: 100%;
-    height: 173vh;
-    margin-top: 11vh;
-}
-
-.sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    height: 86.5vh;
-    border-radius: 0 0 2em 2em;
-    background-color: var(--cor4);
-}
-.sobre .timg{
-    display: flex;
-    width: 10em;
-    height: 10%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 1em 1em;
-    background-color: var(--cor3);
-}
-.sobre .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 85%;
-    opacity: .06;
-    background-image: url(../img/logo.png);
-    background-size: 50em;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.sobre .textS{
-    z-index: 0;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 5;
-    width: 75%;
-    height: 80%;
-}
-.sobre .textS p{
-    text-align: center;
-    font-size: 2.5em;
-    width: 80%;
-}
-
-.owners{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 88.5vh;
 }
