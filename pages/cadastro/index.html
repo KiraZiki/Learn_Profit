@@ -20,22 +20,26 @@
     </header>
     <div class="fundo">
         <div class="container">
-            <div class="container-hidden">
-                <div id="div1" class="div">
-                    <h1 class="titulo">Relate o erro</h1>
-                    <div class="campo">
-                        <label for="relato"><br></label>
-                        <input type="text" id="relato" name="relato" placeholder="Relato" required>
-                    </div>
-                    <button onclick="showDiv2()"  class="botao">enviar</button>
+            <h1 class="titulo">Cadastrar</h1>
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="nome"><br></label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required>
                 </div>
-                <div id="div2" class="div hidden">
-                    <h1 class="obrigado">Obrigado!</h1>
-                    <p class="texto">Muito obrigado por entrar em contato com a equipe de suporte!<br>Desta forma você contribui para a evolução de nosso projeto, nos ajudando a melhorar a relação do usuário com o site!</p>
+                <div class="campo">
+                    <label for="Email"></label>
+                    <input type="text" id="email" name="email" placeholder="Email" required>
                 </div>
-            </div>
-            </div>
+                <div class="campo">
+                    <label for="senha"></label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                </div>
+                <div class="campo">
+                <a href="index.html"><button type="submit" class="botao">Enviar</button></a>
+            </form>
+        </div>
     </div>
+
 
     <script src='main.js'></script>
 </body>

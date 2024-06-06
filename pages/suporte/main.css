@@ -5,6 +5,7 @@
     --cor3: #603A40;
     --cor4: #84596b;
     --cor5: #AF9BB6;
+    --cor6: #000000;
 }
 
 *{
@@ -22,18 +23,111 @@
     width: 0.45em;
     border-radius: 2em;
 }
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 450px;
+    margin: 50px auto;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    border-radius: 2em;
+    box-shadow: 0 0 10px var(--cor6);
+}
+.coontainer {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 450px;
+    margin: 50px auto;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    border-radius: 2em;
+    box-shadow: 0 0 10px var(--cor6);
+    display: none;
+}
+.titulo {
+    color: #440D0F;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
+.obrigado {
+    color: #440D0F;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.botao {
+    background-color: #84596b;
+    color: #AF9BB6;
+    border: 1px solid #603A40;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%; 
+    border-radius: 2em;
+    margin-top: .5em;
+    box-shadow: 0 0 5px var(--cor6);
+}
+.fundo {
+    width: 40%;
+    height: 89vh;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #603A40;
+    color: #fff;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    color: #AF9BB6;
+    font-size: 1.75em; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.campo input {
+    width: 90%;
+    padding: 10px; 
+    box-sizing: border-box; 
+    border-radius: 2em;
+    border: 1px solid var(--cor6);
+    box-shadow: 0 0 5px var(--cor6);
+}
+
+.campo-div {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+.hidden {
+    display: none;
+    
+}
+
+.div {
+    margin-bottom: 20px;
+}
 body{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
     background-color: var(--cor3);
+    overflow: hidden;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    position: fixed;
     width: 100%;
     height: 11vh;
     background-color: var(--cor2);
