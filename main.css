@@ -6,6 +6,7 @@
     --cor4: #84596b;
     --cor5: #AF9BB6;
     --cor6: #000000;
+    --cor7: #ffffff;
 }
 
 *{
@@ -109,6 +110,97 @@ header{
 }
 .svg:hover{
     fill: var(--cor5);
+}
+.menuLR{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 51vh;
+    margin-right: 38em;
+    width: 35%;
+    height: 40vh;
+    background-color: var(--cor2);
+    border-radius: 0 0 3em 3em;
+    box-shadow: 0 0 10px var(--cor6);
+}
+.first{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+.first button{
+    background-color: var(--cor4);
+    width: 100%;
+    height: 100%;
+    margin: .3em;
+    border: none;
+    font-size: 3em;
+    border-radius: 5em;
+    box-shadow: 0 0 10px var(--cor6);
+}
+.first button:hover{
+    background-color: var(--cor3);
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+.second form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.second form input{
+    background-color: var(--cor4);
+    width: 100%;
+    height: 100%;
+    margin: .3em;
+    border: none;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5em;
+    box-shadow: 0 0 10px var(--cor6);
+}
+.second form input:focus{
+    background-color: var(--cor4);
+    width: 100%;
+    height: 100%;
+    margin: .3em;
+    border: none;
+    font-size: 3em;
+    border-radius: 5em;
+    box-shadow: 0 0 10px var(--cor6);
+}
+.second form input[type="submit"]{
+    background-color: var(--cor4);
+    width: 60%;
+    height: 100%;
+    margin: .3em;
+    border: none;
+    font-size: 3em;
+    border-radius: 5em;
+    box-shadow: 0 0 10px var(--cor6);
+}
+.second form input[type="submit"]:hover{
+    background-color: var(--cor3);
+    width: 60%;
+    height: 100%;
+    margin: .3em;
+    border: none;
+    font-size: 3em;
+    border-radius: 5em;
+    box-shadow: 0 0 10px var(--cor6);
 }
 a{
     text-decoration: none;

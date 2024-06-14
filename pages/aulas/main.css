@@ -6,6 +6,7 @@
     --cor4: #84596b;
     --cor5: #AF9BB6;
     --cor6: #000000;
+    --cor7: #ffffff;
 }
 
 *{
@@ -122,21 +123,27 @@ a{
     padding-left: 10%;
 }
 .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #191716;
     align-items: center;
     width: 350px;
     height: 350px;
     margin: 10px;
-    background-color: #AF9BB6;
+    background-color: var(--cor4);
     border: none;
     border-radius: 10px;
+    box-shadow: 0 0 15px var(--cor7);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 2.75em;
     transition: .25s;
 }
 .button img{
-    width:100%;
+    width:75%;
 }
 .button:hover {
-    background-color: #84596b;
+    background-color: var(--cor2);
+    box-shadow: 0 0 10px var(--cor6);
 }
