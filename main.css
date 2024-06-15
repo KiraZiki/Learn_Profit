@@ -76,6 +76,7 @@ header{
 }
 .logo:hover{
     background-color: var(--cor5);
+    box-shadow: 0 0 10px var(--cor7);
 }
 .logoimg{
     width: 3em;
@@ -95,7 +96,7 @@ header{
 }
 .aula:hover, .suport:hover{
     background-color: var(--cor2);
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor7);
 }
 
 .headerR{
@@ -112,12 +113,12 @@ header{
     fill: var(--cor5);
 }
 .menuLR{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 51vh;
+    margin-top: 52.5vh;
     margin-right: 38em;
     width: 35%;
     height: 40vh;
@@ -126,7 +127,7 @@ header{
     box-shadow: 0 0 10px var(--cor6);
 }
 .first{
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -143,11 +144,14 @@ header{
     border-radius: 5em;
     box-shadow: 0 0 10px var(--cor6);
 }
+.first button a{
+    font-size: 1em;
+}
 .first button:hover{
     background-color: var(--cor3);
 }
 .second{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 90%;
