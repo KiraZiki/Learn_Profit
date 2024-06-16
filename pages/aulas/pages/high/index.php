@@ -41,19 +41,31 @@
         </nav>
         <nav class="corpo">
             <nav class="conteudo">
-                <p>!!!INSERIR AQUI O CONTEÚDO!!!</p>
-                <p>!!!O DESIGN SE REAJUSTA DE ACORDO COM O CONTEUDO DENTRO!!!</p>
-                <p>!!!COLOQUE QUANTAS COISAS QUISER DENTRO DESTA NAV CONTEUDO!!!</p>
-                <p>!!!EM CASO DAS LETRAS FICAREM MUITO PEQUENAS COLOQUE UM font-size NO CSS</p>
-                <p>NA CLASS DO CONTEUDO, POR FAVOR COLOCAR EM MEDIDA (em) RECOMENDO</p>
-                <p class="pequena">1em: PARA LETRAS QUE PRECISAM SER PEQUENAS;</p>
-                <p class="media">2em: PARA LETRAS QUE PRECISAM SER MÉDIAS;</p>
-                <p class="maior">3em: PARA LETRAS QUE PRECISAM SER MAIORES;</p>
-                <p>ESTAS SÃO AS RECOMENDAÇÕES, DIANTE DISTO AGRADEÇO!!!</p>
-                <p>!!!CASO O TAMANHO AINDA PERMANECA RUIM É POSSIVEL USAR NUMEROS</p>
-                <p class="decimal">DECIMAIS NA MEDIDA (em), COMO POR EXEMPLO 1.75em!!!</p>
-                <p>!!!QUANDO CONTEUDO FOR ADICIONADO, FAVOR REMOVER TODOS ESTES ALERTAS</p>
-                <p>DO .php E DO .css!!!</p>
+            <p class="maior">Aula sobre TAD (Tipo Abstrato de Dados)</p>
+                <p class="media">Os Tipos Abstratos de Dados (TADs) são um conceito fundamental em ciência da computação e programação, fornecendo uma maneira de definir e manipular dados de forma abstrata. Neste texto, exploraremos o que são TADs, suas vantagens, desvantagens e como implementá-los em PHP com exemplos de código comentados.</p>
+                <p class="maior"><br>O que é um TAD?</p>
+                <p class="media">Um Tipo Abstrato de Dados (TAD) é uma definição formal de uma estrutura de dados, juntamente com um conjunto de operações que podem ser realizadas sobre essa estrutura. Um TAD especifica o que deve ser feito, mas não como deve ser feito. Ele se concentra na interface pública e no comportamento, ocultando a implementação interna.</p>
+                <p class="maior"><br>Características dos TADs</p>
+                <p class="media">Abstração: Os detalhes internos da implementação são ocultos, permitindo que os usuários interajam com a estrutura de dados sem conhecer sua implementação.<br>Encapsulamento: A implementação dos dados e das operações é encapsulada dentro de uma interface bem definida.<br>Reusabilidade: Os TADs podem ser reutilizados em diferentes partes de um programa ou em diferentes projetos.<br>Modularidade: Facilitam a decomposição de um problema em partes menores e manejáveis.</p>
+                <p class="maior"><br>Exemplos Comuns de TADs</p>
+                <p class="media">Pilha (Stack): Uma estrutura LIFO (Last In, First Out).<br>Fila (Queue): Uma estrutura FIFO (First In, First Out).<br>Lista (List): Uma coleção de elementos com operações para inserção, remoção e acesso.<br>Mapa (Map) ou Dicionário (Dictionary): Uma coleção de pares chave-valor.</p>
+                <p class="maior"><br>Implementação de um TAD em PHP: Exemplo de uma Pilha (Stack)</p>
+                <p class="media"><br>Vamos implementar uma pilha (Stack) em PHP para ilustrar o conceito de TAD.<br>Definição da Interface<br>Primeiro, definimos a interface que especifica as operações da pilha.</p>
+                <p><br><img src="../../../../img/tad.png"></p>
+                <p class="media"><br>Implementação da Pilha<br>Agora, implementamos a interface em uma classe Stack.</p>
+                <p><br><img src="../../../../img/tad2.png"></p>
+                <p class="maior"><br>Comentários sobre a Implementação</p>
+                <p class="media">push($item): Adiciona um item ao topo da pilha usando a função array_push.<br>pop(): Remove e retorna o item do topo da pilha. Lança uma exceção se a pilha estiver vazia.<br>peek(): Retorna o item do topo da pilha sem removê-lo. Lança uma exceção se a pilha estiver vazia.<br>isEmpty(): Verifica se a pilha está vazia retornando true se o array de itens estiver vazio.<br></p>
+                <p class="maior"><br>Exemplo de Uso</p>
+                <p class="media">Vamos demonstrar como usar a pilha implementada.</p>
+                <p><br><img src="../../../../img/exemplotad.png"></p>
+                <p class="maior"><br>Vantagens dos TADs</p>
+                <p class="media">Abstração e Encapsulamento: Os TADs fornecem uma maneira clara e consistente de interagir com estruturas de dados, sem se preocupar com os detalhes da implementação.<br>Manutenibilidade: Alterações na implementação interna de um TAD não afetam o código que usa o TAD, desde que a interface permaneça a mesma.<br>Reusabilidade: Os TADs podem ser usados em diferentes partes de um programa ou em diferentes projetos, aumentando a reutilização de código.</p>
+                <p class="maior"><br>Desvantagens dos TADs</p>
+                <p class="media">Overhead: A abstração pode introduzir um overhead adicional em termos de desempenho e uso de memória.<br>Complexidade: Definir e implementar TADs pode ser mais complexo do que usar estruturas de dados simples diretamente.</p>
+                <p class="maior"><br>Conclusão</p>
+                <p class="media"><br>Os Tipos Abstratos de Dados são uma ferramenta poderosa na programação que permite a criação de estruturas de dados eficientes e reutilizáveis. Eles fornecem uma maneira de encapsular e abstrair a lógica de manipulação de dados, facilitando a manutenção e a reutilização do código. Compreender e saber implementar TADs em PHP é essencial para desenvolver soluções de software robustas e escaláveis.<br></p>
+        
             </nav>
             <nav class="atividade">
                 <p>!!!ESTA PARTE SERÁ FALTA POR MIM DANIEL APÓS A ENTREGA DE DOMINGO, NÃO COLOQUE NADA AQUI!!!</p>

@@ -41,19 +41,27 @@
         </nav>
         <nav class="corpo">
             <nav class="conteudo">
-                <p>!!!INSERIR AQUI O CONTEÚDO!!!</p>
-                <p>!!!O DESIGN SE REAJUSTA DE ACORDO COM O CONTEUDO DENTRO!!!</p>
-                <p>!!!COLOQUE QUANTAS COISAS QUISER DENTRO DESTA NAV CONTEUDO!!!</p>
-                <p>!!!EM CASO DAS LETRAS FICAREM MUITO PEQUENAS COLOQUE UM font-size NO CSS</p>
-                <p>NA CLASS DO CONTEUDO, POR FAVOR COLOCAR EM MEDIDA (em) RECOMENDO</p>
-                <p class="pequena">1em: PARA LETRAS QUE PRECISAM SER PEQUENAS;</p>
-                <p class="media">2em: PARA LETRAS QUE PRECISAM SER MÉDIAS;</p>
-                <p class="maior">3em: PARA LETRAS QUE PRECISAM SER MAIORES;</p>
-                <p>ESTAS SÃO AS RECOMENDAÇÕES, DIANTE DISTO AGRADEÇO!!!</p>
-                <p>!!!CASO O TAMANHO AINDA PERMANECA RUIM É POSSIVEL USAR NUMEROS</p>
-                <p class="decimal">DECIMAIS NA MEDIDA (em), COMO POR EXEMPLO 1.75em!!!</p>
-                <p>!!!QUANDO CONTEUDO FOR ADICIONADO, FAVOR REMOVER TODOS ESTES ALERTAS</p>
-                <p>DO .php E DO .css!!!</p>
+                <p class="maior">Aula sobre Listas Simplesmente Encadeadas </p>
+                <p class="media">As listas simplesmente encadeadas são uma estrutura de dados fundamental na ciência da computação, frequentemente usadas para implementar listas, filas, pilhas e outras estruturas complexas. Neste texto, vamos explorar o que são listas simplesmente encadeadas, suas vantagens e desvantagens, e como implementá-las em Python com exemplos de código comentados. </p>
+                <p class="maior"><br>O que é uma Lista Simplesmente Encadeada?</p>
+                <p class="media">Uma lista simplesmente encadeada é uma coleção linear de elementos, onde cada elemento (chamado de nó) contém dois componentes principais:</p>
+                <p class="media">Dado: O valor armazenado no nó. <br>Ponteiro: Uma referência ao próximo nó da lista. <br>O primeiro nó da lista é chamado de cabeça (head) e o último nó aponta para None, indicando o fim da lista. </p>
+                <p class="maior"><br>Estrutura de um Nó</p>
+                <p class="media">Primeiro, vamos definir a classe Node, que representa cada nó da lista simplesmente encadeada.<br></p>
+                <p><br><img src="../../../../img/estruturano.png"></p>
+                <p class="maior"><br>Estrutura da Lista Simplesmente Encadeada</p>
+                <p class="media">A classe LinkedList gerencia os nós e implementa as operações básicas da lista simplesmente encadeada.</p>
+                <p><br><img src="../../../../img/estruturasimples.png"></p>
+                <p><img src="../../../../img/estruturasimples2.png"></p>
+                <p><img src="../../../../img/estruturasimples3.png"></p>
+                <p><img src="../../../../img/estruturasimples4.png"></p>
+                <p class="maior"><br>Comentários sobre a Implementação</p>
+                <p class="media">__construct: Inicializa a lista encadeada com a cabeça (head) como null.<br>isEmpty: Verifica se a lista está vazia retornando true se head for null.<br>append($data): Adiciona um novo nó ao final da lista. Se a lista estiver vazia, o novo nó se torna a cabeça. Caso contrário, percorre a lista até o final e adiciona o novo nó.<br>prepend($data): Adiciona um novo nó ao início da lista. Faz o novo nó apontar para a antiga cabeça e atualiza a cabeça para ser o novo nó.<br>delete($key): Remove o nó que contém o valor especificado (key). Percorre a lista para encontrar o nó a ser removido e ajusta os ponteiros conforme necessário.<br>display(): Percorre a lista desde a cabeça até o final, coletando os dados de cada nó e exibindo-os.</p>
+                <p class="maior"><br>Exemplo de Uso</p>
+                <p class="media">Vamos demonstrar como usar a lista simplesmente encadeada com algumas operações básicas.</p>
+                <p><img src="../../../../img/estruturasimplesfinal.png"></p>
+                <p class="maior"><br>Conclusão</p>
+                <p class="media"><br>As listas simplesmente encadeadas são uma estrutura de dados eficiente para inserir e remover elementos, especialmente quando a ordem dos elementos é importante. Com a implementação em PHP, podemos criar, manipular e exibir elementos de uma lista simplesmente encadeada, aproveitando a simplicidade e flexibilidade dessa estrutura de dados.<br></p>
             </nav>
             <nav class="atividade">
                 <p>!!!ESTA PARTE SERÁ FALTA POR MIM DANIEL APÓS A ENTREGA DE DOMINGO, NÃO COLOQUE NADA AQUI!!!</p>

@@ -36,19 +36,19 @@
     </header>
     <section class="main" onclick="showmenu()">
         <div class="button">
-        <a href="begginer/index.php">
+        <a href="pages/begginer/index.php">
                 <img src="../../img/beginner.png" alt="Nivel Beginner">
                 <p>Beginner</p>
             </a>
         </div>
         <div class="button">
-        <a href="median/index.php">
+        <a href="pages/median/index.php">
                 <img src="../../img/median.png" alt="Nivel Median">
                 <p>Median</p>
             </a>
         </div>
         <div class="button">
-            <a href="high/index.php">
+            <a href="pages/high/index.php">
                 <img src="../../img/high.png" alt="Nivel High">
                 <p>High</p>
             </a>

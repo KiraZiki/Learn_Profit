@@ -41,19 +41,33 @@
         </nav>
         <nav class="corpo">
             <nav class="conteudo">
-                <p>!!!INSERIR AQUI O CONTEÚDO!!!</p>
-                <p>!!!O DESIGN SE REAJUSTA DE ACORDO COM O CONTEUDO DENTRO!!!</p>
-                <p>!!!COLOQUE QUANTAS COISAS QUISER DENTRO DESTA NAV CONTEUDO!!!</p>
-                <p>!!!EM CASO DAS LETRAS FICAREM MUITO PEQUENAS COLOQUE UM font-size NO CSS</p>
-                <p>NA CLASS DO CONTEUDO, POR FAVOR COLOCAR EM MEDIDA (em) RECOMENDO</p>
-                <p class="pequena">1em: PARA LETRAS QUE PRECISAM SER PEQUENAS;</p>
-                <p class="media">2em: PARA LETRAS QUE PRECISAM SER MÉDIAS;</p>
-                <p class="maior">3em: PARA LETRAS QUE PRECISAM SER MAIORES;</p>
-                <p>ESTAS SÃO AS RECOMENDAÇÕES, DIANTE DISTO AGRADEÇO!!!</p>
-                <p>!!!CASO O TAMANHO AINDA PERMANECA RUIM É POSSIVEL USAR NUMEROS</p>
-                <p class="decimal">DECIMAIS NA MEDIDA (em), COMO POR EXEMPLO 1.75em!!!</p>
-                <p>!!!QUANDO CONTEUDO FOR ADICIONADO, FAVOR REMOVER TODOS ESTES ALERTAS</p>
-                <p>DO .php E DO .css!!!</p>
+            <p class="maior">Aula sobre Listas Duplamente Encadeadas</p>
+                <p class="media">As listas duplamente encadeadas são uma estrutura de dados avançada que permite uma navegação bidirecional através dos elementos. Neste texto, vamos explorar o que são listas duplamente encadeadas, suas vantagens e desvantagens, e como implementá-las em PHP com exemplos de código comentados.</p>
+                <p class="maior"><br>O que é uma Lista Duplamente Encadeada?</p>
+                <p class="media">Uma lista duplamente encadeada é uma coleção linear de elementos, onde cada elemento (chamado de nó) contém três componentes principais:</p>
+                <p class="media">Dado: O valor armazenado no nó.<br>Ponteiro para o Próximo: Uma referência ao próximo nó da lista.<br>Ponteiro para o Anterior: Uma referência ao nó anterior na lista.</p>
+                <p class="maior"><br>Estrutura de um Nó</p>
+                <p class="media">Cada nó na lista duplamente encadeada contém um dado e duas referências (ou ponteiros) para os nós adjacentes. Em PHP, podemos definir essa estrutura com uma classe chamada Node.<br></p>
+                <p><br><img src="../../../../img/noduplamente.png"></p>
+                <p class="maior"><br>Estrutura da Lista Duplamente Encadeada</p>
+                <p class="media">Agora, vamos definir a classe DoublyLinkedList, que gerencia os nós e implementa as operações básicas da lista duplamente encadeada.</p>
+                <p><br><img src="../../../../img/duplamente1.png"></p>
+                <p><br><img src="../../../../img/duplamente2.png"></p>
+                <p><br><img src="../../../../img/duplamente3.png"></p>
+                <p><br><img src="../../../../img/duplamente4.png"></p>
+                <p><br><img src="../../../../img/duplamente5.png"></p>
+                <p class="maior"><br>Comentários sobre a Implementação</p>
+                <p class="media">__construct: Inicializa a lista encadeada com a cabeça (head) e a cauda (tail) como null.<br>isEmpty: Verifica se a lista está vazia retornando true se head for null.<br>append: Adiciona um novo nó no final da lista. Se a lista estiver vazia, o novo nó se torna a cabeça e a cauda. Caso contrário, ajusta os ponteiros para adicionar o novo nó no final.<br>prepend: Adiciona um novo nó no início da lista. Se a lista estiver vazia, o novo nó se torna a cabeça e a cauda. Caso contrário, ajusta os ponteiros para adicionar o novo nó no início.<br>delete: Remove o nó que contém o valor especificado (key). Percorre a lista para encontrar o nó a ser removido, ajustando os ponteiros conforme necessário.<br>displayForward: Percorre a lista desde a cabeça até o final, coletando os dados de cada nó e os exibindo.<br>displayBackward: Percorre a lista desde a cauda até o início, coletando os dados de cada nó e os exibindo.</p>
+                <p class="maior"><br>Vantagens das Listas Duplamente Encadeadas</p>
+                <p class="media">Navegação Bidirecional: Permite percorrer a lista em ambas as direções (para frente e para trás).<br>Facilidade de Remoção: A remoção de um nó é mais eficiente, pois não é necessário percorrer a lista desde a cabeça para encontrar o nó anterior.<br>Inserção mais Flexível: Facilita a inserção de novos nós em qualquer posição da lista.</p>
+                <p class="maior"><br>Desvantagens das Listas Duplamente Encadeadas</p>
+                <p class="media">Uso Adicional de Memória: Cada nó requer armazenamento adicional para dois ponteiros (anterior e próximo).<br>Complexidade: A implementação e a manutenção são mais complexas do que em listas simplesmente encadeadas.</p>
+                <p class="maior"><br>Exemplo de Uso</p>
+                <p class="media">Vamos demonstrar como usar a lista duplamente encadeada com algumas operações básicas.</p>
+                <p><img src="../../../../img/exemplo.png"></p>
+                <p><img src="../../../../img/exemplo2.png"></p>
+                <p class="maior"><br>Conclusão</p>
+                <p class="media"><br>As listas duplamente encadeadas são uma estrutura de dados poderosa que oferece navegação bidirecional, facilitando inserções e remoções em qualquer posição da lista. Embora sejam mais complexas de implementar e usem mais memória do que as listas simplesmente encadeadas, suas vantagens em flexibilidade e eficiência fazem delas uma escolha útil em muitas aplicações. Compreender como implementá-las em PHP é fundamental para desenvolver algoritmos e estruturas de dados avançadas.<br></p>
             </nav>
             <nav class="atividade">
                 <p>!!!ESTA PARTE SERÁ FALTA POR MIM DANIEL APÓS A ENTREGA DE DOMINGO, NÃO COLOQUE NADA AQUI!!!</p>
