@@ -211,57 +211,74 @@ a{
     font-size: 2em;
 }
 
-.container {
-    background-color: #ffffff;
-    padding: 20px;
-    width: 450px;
-    margin: 50px auto;
-    border-radius: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; 
-    border-radius: 2em;
-    box-shadow: 0 0 10px var(--cor6);
-}
-.titulo {
-    color: #440D0F;
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.botao {
-    background-color: #84596b;
-    color: #AF9BB6;
-    border: 1px solid #603A40;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 0px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 25%; 
-    border-radius: 2em;
-    box-shadow: 0 0 5px var(--cor6);
-}
-.fundo {
-    width: 100%;
-    height: 100%;
+.main{
     display: flex;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
-    background-color: #603A40;
-    color: #fff;
-    box-shadow: 0 0 10px var(--cor6);
-}
-.campo input {
-    width: 90%;
-    padding: 10px; 
-    box-sizing: border-box; 
-    border-radius: 2em;
-    border: 1px solid var(--cor6);
-    box-shadow: 0 0 5px var(--cor6);
+    width: 100%;
+    height: auto;
+    margin-top: 12.5vh;
 }
 
-.campo {
-    margin-bottom: 10px;
-    text-align: center; 
+.mTop{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    width: 99.5%;
+    height: 5vh;
+    margin-top: 1em;
+}
+.op1, .op2{
+    text-align: center;
+    background-color: var(--cor4);
+    width: 10%;
+    font-size: 2em;
+}
+.op1{
+    border-radius: .9em 0 0 0;
+}
+.op2{
+    border-radius: 0 .9em 0 0;
+    opacity: 50%;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor4);
+    width: 98%;
+    padding: 1em;
+    border-radius: 0 1em 1em 1em;
+    box-shadow: 0 0 10px var(--cor6);
+    margin-bottom: 1em;
+    padding: 1em;
+}
+/* ISTO SERA RETIRADO DPS Q A EXPLICAÇÃO SER ENTENDIDA */
+.pequena{
+    font-size: 1em;
+}
+.media{
+    font-size: 2em;
+}
+.maior{
+    font-size: 3em;
+}
+.decimal{
+    font-size: 1.75em;
+}
+/* ISTO SERA RETIRADO DPS Q A EXPLICAÇÃO SER ENTENDIDA */
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 100%;
+    background-color: var(--cor3);
+    border-radius: 1em;
+    box-shadow: 0 0 10px var(--cor6);
+    padding: .5em;
+}
+.atividade{
+    display: none;
 }

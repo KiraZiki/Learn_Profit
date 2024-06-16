@@ -1,7 +1,3 @@
-function showDiv2() {
-    document.getElementById('div2').classList.remove('hidden');
-}
-
 function showmenu(){
     if(document.getElementById('menuLR').style.display != "flex"){
         document.getElementById('menuLR').style.display = "flex";
