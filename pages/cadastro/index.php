@@ -34,7 +34,7 @@
             </div>
         </section>
     </header>
-    <div class="fundo" onclick="showmenu()">
+    <div class="fundo">
         <div class="container">
             <h1 class="titulo">Cadastrar</h1>
             <form action="#" method="post">

@@ -34,7 +34,7 @@
             </div>
         </section>
     </header>
-    <section class="main" onclick="showmenu()">
+    <section class="main">
         <div class="button">
         <a href="pages/begginer/index.php">
                 <img src="../../img/beginner.png" alt="Nivel Beginner">

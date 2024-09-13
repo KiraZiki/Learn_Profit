@@ -34,23 +34,20 @@
             </div>
         </section>
     </header>
-    <div class="main" onclick="showmenu()">
+    <div class="main">
         <div class="sobre">
-            <h1 class="timg">Learn Profit</h1>
             <section class="text"></section>
             <section class="textS">
                 <p>Durante nossos estudos vimos que há uma lacuna no ensino de estrutura de dados. 
                     Muitos recursos disponíveis eram densos e difíceis de entender para iniciantes. 
                     Por isso, decidimos criar a empresa, Learn Profit, com o objetivo de simplificar o ensino de 
-                    estrutura de dados.</p>
-                <p> Nós queremos tornar o aprendizado dessa área crucial da ciência da computação acessível a 
+                    estrutura de dados. Nós queremos tornar o aprendizado dessa área crucial da ciência da computação acessível a 
                     todos, desde iniciantes até profissionais experientes. Assim, o site Learn Profit foi 
                     lançado, oferecendo tutoriais  e materiais didáticos que explicam de maneira clara e prática 
                     os conceitos de estrutura de dados.</p>
             </section>
         </div>
         <div class="criadores">
-            <h1 class="timg">Owners</h1>
             <div class="owners">
                 <section class="owner">
                     <section class="fotoOw"><img src="img/high.png" alt="Foto Daniel"></section>
@@ -69,15 +66,14 @@
     </div>
     <footer>
         <section class="footerL">
-            <img src="img/logo.png" alt="Logo Learn Profit">
         </section>
         <section class="footerM">
             <h1>Learn Profit</h1>
         </section>
         <section class="footerR">
-            <p><img src="img/github.png" alt="GitHub KiraZIKI"><a href="https://github.com/KiraZiki">KiraZIKI</a></p>
-            <p><img src="img/github.png" alt="GitHub Samcioli"><a href="https://github.com/samcioli">Samcioli</a></p>
-            <p><img src="img/github.png" alt="GitHub Camarginho"><a href="https://github.com/Camarginho">Camarginho</a></p>
+            <p><div class="p"><a href="https://github.com/KiraZiki">KiraZIKI</a><img src="img/github.png" alt="GitHub KiraZIKI"></div></p>
+            <p><div class="p"><a href="https://github.com/samcioli">Samcioli</a><img src="img/github.png" alt="GitHub Samcioli"></div></p>
+            <p><div class="p"><a href="https://github.com/Camarginho">Camarginho</a><img src="img/github.png" alt="GitHub Camarginho"></div></p>
         </section>
     </footer>
 

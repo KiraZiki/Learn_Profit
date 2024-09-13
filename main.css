@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 :root{
     --cor1: #191716;
-    --cor2: #440D0F;
-    --cor3: #603A40;
-    --cor4: #84596b;
-    --cor5: #AF9BB6;
-    --cor6: #000000;
+    --cor2: #2b07ba;
+    --cor3: #ffffff;
+    --cor4: #cbcbcb;
+    --cor5: #000000;
+    --cor6: #db1c1c;
     --cor7: #ffffff;
 }
 
@@ -29,7 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: var(--cor3);
 }
 
@@ -49,18 +49,20 @@ header{
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    padding-left: 20px;
 }
 .inheaderL{
     display: flex;
     flex-direction: row;
+    font-size: 0.9em;
     justify-content: space-evenly;
     align-items: center;
-    width: 24em;
-    height: 65%;
+    width: 20em;
+    height: 60%;
     margin-left: -1.2em;
-    border-radius: 0 2em 2em 0;
+    border-radius: 0 1em 1em 0;
     background-color: var(--cor4);
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .logo{
     z-index: 2;
@@ -72,23 +74,23 @@ header{
     height: 80%;
     border-radius: 4.5em;
     transition: .25s;
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .logo:hover{
-    background-color: var(--cor5);
-    box-shadow: 0 0 10px var(--cor7);
+    background-color: var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .logoimg{
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     margin-top: .6em;
 }
 .aula, .suport{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48%;
-    height: 85%;
+    width: 38%;
+    height: 65%;
     transition: .25s;
 }
 .suport{
@@ -96,9 +98,11 @@ header{
 }
 .aula:hover, .suport:hover{
     background-color: var(--cor2);
-    box-shadow: 0 0 10px var(--cor7);
+    box-shadow: 0 0 10px var(--cor1);
+    width: 70%;
+    height: 100%;
+    border-radius: 0 1em 1em 0;
 }
-
 .headerR{
     display: flex;
     justify-content: center;
@@ -119,12 +123,11 @@ header{
     align-items: center;
     position: absolute;
     margin-top: 52.5vh;
-    margin-right: 38em;
+    margin-right: 22em;
     width: 35%;
     height: 40vh;
     background-color: var(--cor2);
-    border-radius: 0 0 3em 3em;
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .first{
     display: flex;
@@ -136,13 +139,12 @@ header{
 }
 .first button{
     background-color: var(--cor4);
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .first button a{
     font-size: 1em;
@@ -151,6 +153,7 @@ header{
     background-color: var(--cor3);
 }
 .second{
+    font-family:Arial, Helvetica, sans-serif;
     display: none;
     justify-content: center;
     align-items: center;
@@ -158,6 +161,7 @@ header{
     height: 90%;
 }
 .second form{
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,15 +170,15 @@ header{
     height: 100%;
 }
 .second form input{
+    font-family:Arial, Helvetica, sans-serif;
     background-color: var(--cor4);
     width: 100%;
     height: 100%;
     margin: .3em;
     border: none;
     text-align: center;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .second form input:focus{
     background-color: var(--cor4);
@@ -182,9 +186,8 @@ header{
     height: 100%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .second form input[type="submit"]{
     background-color: var(--cor4);
@@ -192,9 +195,8 @@ header{
     height: 100%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .second form input[type="submit"]:hover{
     background-color: var(--cor3);
@@ -202,11 +204,10 @@ header{
     height: 100%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
 }
 a{
+    font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 2em;
 }
@@ -217,7 +218,7 @@ a{
     justify-content: start;
     align-items: center;
     width: 100%;
-    height: 173vh;
+    height: 125vh;
     margin-top: 11vh;
 }
 
@@ -228,20 +229,22 @@ a{
     width: 80%;
     height: 86.5vh;
     background-color: var(--cor4);
-    box-shadow: 0 0 10px var(--cor6);
+
 }
 .sobre .timg{
     display: flex;
+    font-family:Arial, Helvetica, sans-serif;
     width: 10em;
     height: 10%;
     justify-content: center;
     align-items: center;
-    border-radius: 0 0 1em 1em;
+    border-radius: 0 0 1%;
     background-color: var(--cor3);
-    box-shadow: 0 0 10px var(--cor6);
+
 }
 .sobre .text{
     display: flex;
+    font-family:Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
     width: 90%;
@@ -252,18 +255,27 @@ a{
     background-position: center;
     background-repeat: no-repeat;
 }
+.p{
+    display:flex;
+    font-size: 60%;
+    padding-right: 30px;
+    color: var(--cor3);
+}
 .sobre .textS{
     z-index: 0;
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     opacity: 5;
-    width: 75%;
+    width: 85%;
+    font-size: 70%;
     height: 80%;
 }
 .sobre .textS p{
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2.5em;
     width: 80%;
@@ -274,34 +286,27 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
     width: 80%;
-    height: 88.5vh;
+    height: 20%;
     background-color: var(--cor4);
-    box-shadow: 0 0 10px var(--cor6);
+
 }
 .owners{
     display: flex;
+    font-family:Arial, Helvetica, sans-serif;
     flex-direction: row;
+    padding-bottom: 400px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-color: var(--cor4);
-}
-.criadores .timg{
-    z-index: 0;
-    display: flex;
-    width: 10em;
-    height: 10%;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    border-radius: 0 0 1em 1em;
-    background-color: var(--cor3);
-    box-shadow: 0 0 10px var(--cor6);
+    
 }
 
 .owner{
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,18 +314,18 @@ a{
     margin: 22em 2.5em 2.5em 2.5em;
     border-radius: 1em 1em 2em 2em;
     width: 27.5em;
-    height: 18em;
-    background-color: var(--cor2);
+    height: 100%;
+    background-color: var(--cor6);
 }
 .fotoOw{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -15em;
-    width: 25em;
-    height: 25em;
+    margin-top: -7em;
+    width: 10em;
+    height:10em;
     border-radius: 50em;
-    background-color: var(--cor5);
+    background-color: var(--cor3);
 }
 .fotoOw img{
     display: flex;
@@ -331,8 +336,11 @@ a{
     border-radius: 50em;
 }
 .nameOw{
+    display: flex;
+    align-items: center;
     margin-top: 1em;
-    font-size: 3em;
+    font-size: 1.5em;
+    color: var(--cor3);
 }
 
 footer{
@@ -341,8 +349,9 @@ footer{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 31vh;
+    height: 35vh;
     background-color: var(--cor2);
+    color: var(--cor3);
 }
 .footerL{
     display: flex;
@@ -350,6 +359,7 @@ footer{
     align-items: center;
     width: 33.9%;
     height: 100%;
+    color: var(--cor3);
 }
 .footerL img{
     width: 30%;
@@ -357,11 +367,13 @@ footer{
     margin-left: -12em;
 }
 .footerM{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 1.5em;
     width: 33.9%;
+    color: var(--cor3);
 }
 .footerR{
     display: flex;

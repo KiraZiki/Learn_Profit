@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 :root{
     --cor1: #191716;
-    --cor2: #440D0F;
-    --cor3: #603A40;
-    --cor4: #84596b;
-    --cor5: #AF9BB6;
-    --cor6: #000000;
+    --cor2: #2b07ba;
+    --cor3: #ffffff;
+    --cor4: #cbcbcb;
+    --cor5: #000000;
+    --cor6: #db1c1c;
     --cor7: #ffffff;
 }
 
@@ -29,7 +29,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: var(--cor3);
 }
 
@@ -49,18 +49,20 @@ header{
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    padding-left: 20px;
 }
 .inheaderL{
     display: flex;
     flex-direction: row;
+    font-size: 0.9em;
     justify-content: space-evenly;
     align-items: center;
-    width: 24em;
-    height: 65%;
+    width: 20em;
+    height: 60%;
     margin-left: -1.2em;
-    border-radius: 0 2em 2em 0;
+    border-radius: 0 1em 1em 0;
     background-color: var(--cor4);
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .logo{
     z-index: 2;
@@ -72,23 +74,23 @@ header{
     height: 80%;
     border-radius: 4.5em;
     transition: .25s;
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .logo:hover{
-    background-color: var(--cor5);
-    box-shadow: 0 0 10px var(--cor7);
+    background-color: var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .logoimg{
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     margin-top: .6em;
 }
 .aula, .suport{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48%;
-    height: 85%;
+    width: 38%;
+    height: 65%;
     transition: .25s;
 }
 .suport{
@@ -96,7 +98,10 @@ header{
 }
 .aula:hover, .suport:hover{
     background-color: var(--cor2);
-    box-shadow: 0 0 10px var(--cor7);
+    box-shadow: 0 0 10px var(--cor1);
+    width: 70%;
+    height: 100%;
+    border-radius: 0 1em 1em 0;
 }
 
 .headerR{
@@ -119,12 +124,11 @@ header{
     align-items: center;
     position: absolute;
     margin-top: 52.5vh;
-    margin-right: 38em;
+    margin-right: 22em;
     width: 35%;
     height: 40vh;
     background-color: var(--cor2);
-    border-radius: 0 0 3em 3em;
-    box-shadow: 0 0 10px var(--cor6);
+    box-shadow: 0 0 10px var(--cor1);
 }
 .first{
     display: flex;
@@ -136,13 +140,12 @@ header{
 }
 .first button{
     background-color: var(--cor4);
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .first button a{
     font-size: 1em;
@@ -151,6 +154,7 @@ header{
     background-color: var(--cor3);
 }
 .second{
+    font-family:Arial, Helvetica, sans-serif;
     display: none;
     justify-content: center;
     align-items: center;
@@ -158,6 +162,7 @@ header{
     height: 90%;
 }
 .second form{
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,15 +171,15 @@ header{
     height: 100%;
 }
 .second form input{
+    font-family:Arial, Helvetica, sans-serif;
     background-color: var(--cor4);
     width: 100%;
     height: 100%;
     margin: .3em;
     border: none;
     text-align: center;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .second form input:focus{
     background-color: var(--cor4);
@@ -182,9 +187,8 @@ header{
     height: 100%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .second form input[type="submit"]{
     background-color: var(--cor4);
@@ -192,9 +196,8 @@ header{
     height: 100%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
+
 }
 .second form input[type="submit"]:hover{
     background-color: var(--cor3);
@@ -202,30 +205,27 @@ header{
     height: 100%;
     margin: .3em;
     border: none;
-    font-size: 3em;
-    border-radius: 5em;
-    box-shadow: 0 0 10px var(--cor6);
+    font-size: 2em;
 }
 a{
+    font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 2em;
 }
-
 .main{
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    width: 100%;
-    height: auto;
-    margin-top: 12.5vh;
+    width: 99.5%;
+    height: 125vh;
+    margin-top: 11vh;
 }
-
 .mTop{
     z-index: 1;
     display: flex;
     flex-direction: row;
-    width: 99.5%;
+    width: 79.1%;
     height: 5vh;
     margin-top: 1em;
 }
@@ -233,23 +233,18 @@ a{
     text-align: center;
     background-color: var(--cor4);
     width: 10%;
-    font-size: 2em;
-}
-.op1{
-    border-radius: .9em 0 0 0;
+    font-size: 1.2em;
+    border: none;
 }
 .op2{
-    border-radius: 0 .9em 0 0;
     opacity: 50%;
 }
 .corpo{
     display: flex;
     flex-direction: column;
     background-color: var(--cor4);
-    width: 98%;
+    width: 76.5%;
     padding: 1em;
-    border-radius: 0 1em 1em 1em;
-    box-shadow: 0 0 10px var(--cor6);
     margin-bottom: 1em;
     padding: 1em;
 }
@@ -258,10 +253,10 @@ a{
     font-size: 1em;
 }
 .media{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .maior{
-    font-size: 3em;
+    font-size: 2em;
 }
 .decimal{
     font-size: 1.75em;
@@ -269,15 +264,14 @@ a{
 /* ISTO SERA RETIRADO DPS Q A EXPLICAÇÃO SER ENTENDIDA */
 .conteudo{
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 99%;
     height: 100%;
-    background-color: var(--cor3);
-    border-radius: 1em;
-    box-shadow: 0 0 10px var(--cor6);
-    padding: .5em;
+    background-color: var(--cor4);
 }
 .atividade{
     display: none;

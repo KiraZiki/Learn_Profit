@@ -13,8 +13,8 @@
         <div class="headerL">
             <section class="logo"><a href="../../../../index.php"><img src="../../../../img/logo.png" alt="Logo Learn Profit" class="logoimg"></a></section>
             <div class="inheaderL">
-                <section class="aula"><a href="../../index.php">Aulas</a></section>
-                <section class="suport"><a href="../../suporte/index.php">Suporte</a></section>
+                <section class="aula"><a href="pages/aulas/index.php">Aulas</a></section>
+                <section class="suport"><a href="pages/suporte/index.php">Suporte</a></section>
             </div>
         </div>
         <section class="headerR">
@@ -34,7 +34,7 @@
             </div>
         </section>
     </header>
-    <section class="main" onclick="showmenu()">
+    <section class="main">
         <nav class="mTop">
             <div class="op1">Conteúdo</div>
             <div class="op2">Atividade</div>

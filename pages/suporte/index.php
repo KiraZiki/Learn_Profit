@@ -34,20 +34,20 @@
             </div>
         </section>
     </header>
-    <div class="fundo" onclick="showmenu()">
+    <div class="fundo">
         <div class="container">
             <div class="container-hidden">
                 <div id="div1" class="div">
                     <h1 class="titulo">Relate o erro</h1>
                     <div class="campo">
                         <!-- <label for="relato"><br></label> -->
-                        <input type="text" id="relato" name="relato" placeholder="Relato" required>
+                        <input type="text" id="relato" name="relato" placeholder="Dida-nos o que aconteceu" required>
                     </div>
                     <button onclick="showDiv2()"  class="botao">enviar</button>
                 </div>
                 <div id="div2" class="div hidden">
                     <h1 class="obrigado">Obrigado!</h1>
-                    <p class="texto">Muito obrigado por entrar em contato com a equipe de suporte!<br>Desta forma você contribui para a evolução de nosso projeto, nos ajudando a melhorar a relação do usuário com o site!</p>
+                    <p class="texto">Muito obrigado por entrar em contato com a equipe de suporte! Desta forma você contribui para a evolução de nosso projeto, nos ajudando a melhorar a relação do usuário com o site!</p>
                 </div>
             </div>
             </div>
