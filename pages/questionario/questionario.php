@@ -126,8 +126,8 @@
                                 <button type="button" onclick="calculateScore()" class="botao">Enviar</button>
                             </div>
                             <div id="div2" class="div hidden">
-                                <h1 class="obrigado">Sua pontuação é de <span id="score"></span> pontos.</h1>
-                                <p class="texto">O nível ideal para você começar é no<span id="level" style="margin-left: 5px;"></span>.</p>
+                                <h1 class="obrigado">Você fez <span id="score"></span> pontos.</h1>
+                                <p class="texto">O nível ideal para começar é no<span id="level" style="margin-left: 5px;"></span>.</p>
                             </div>
                         </div>
                     </div>
