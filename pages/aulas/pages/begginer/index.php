@@ -15,6 +15,7 @@
             <div class="inheaderL">
                 <section class="aula"><a href="pages/aulas/index.php">Aulas</a></section>
                 <section class="suport"><a href="pages/suporte/index.php">Suporte</a></section>
+                <section class="questionario"><a href="">Questionário</a></section>
             </div>
         </div>
         <section class="headerR">

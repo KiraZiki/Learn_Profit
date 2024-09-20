@@ -13,8 +13,9 @@
         <div class="headerL">
             <section class="logo"><a href="index.php"><img src="../../img/logo.png" alt="Logo Learn Profit" class="logoimg"></a></section>
             <div class="inheaderL">
-                <section class="aula"><a href="pages/aulas/index.php">Aulas</a></section>
+                <section class="aula"><a href="index.php">Aulas</a></section>
                 <section class="suport"><a href="pages/suporte/index.php">Suporte</a></section>
+                <section class="questionario"><a href="">Questionário</a></section>
             </div>
         </div>
         <section class="headerR">
@@ -35,6 +36,7 @@
         </section>
     </header>
     <section class="main">
+        
         <div class="button">
         <a href="pages/begginer/index.php">
                 <img src="../../img/beginner.png" alt="Nivel Beginner">
@@ -54,7 +56,11 @@
             </a>
         </div>
     </section>
-
+    <div class="criadores">
+            <div class="owners">
+                <p>Antes de iniciar, é recomendado que você responda o questionário<br>para saber qual o nível ideal para começar.</p>
+            </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

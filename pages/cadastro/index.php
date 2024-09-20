@@ -13,8 +13,9 @@
         <div class="headerL">
             <section class="logo"><a href="../../index.php"><img src="../../img/logo.png" alt="Logo Learn Profit" class="logoimg"></a></section>
             <div class="inheaderL">
-                <section class="aula"><a href="../aulas/index.php">Aulas</a></section>
-                <section class="suport"><a href="../suporte/index.php">Suporte</a></section>
+                <section class="aula"><a href="pages/aulas/index.php">Aulas</a></section>
+                <section class="suport"><a href="pages/suporte/index.php">Suporte</a></section>
+                <section class="questionario"><a href="">Questionário</a></section>
             </div>
         </div>
         <section class="headerR">

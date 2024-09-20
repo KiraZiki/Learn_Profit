@@ -15,6 +15,7 @@
             <div class="inheaderL">
                 <section class="aula"><a href="pages/aulas/index.php">Aulas</a></section>
                 <section class="suport"><a href="pages/suporte/index.php">Suporte</a></section>
+                <section class="questionario"><a href="pages/questionario/questionario.php">Questionário</a></section>
             </div>
         </div>
         <section class="headerR">
@@ -38,11 +39,11 @@
         <div class="sobre">
             <section class="text"></section>
             <section class="textS">
-                <p>Durante nossos estudos vimos que há uma lacuna no ensino de estrutura de dados. 
-                    Muitos recursos disponíveis eram densos e difíceis de entender para iniciantes. 
-                    Por isso, decidimos criar a empresa, Learn Profit, com o objetivo de simplificar o ensino de 
-                    estrutura de dados. Nós queremos tornar o aprendizado dessa área crucial da ciência da computação acessível a 
-                    todos, desde iniciantes até profissionais experientes. Assim, o site Learn Profit foi 
+                <p> Durante nossos estudos notamos que há uma lacuna no ensino de estrutura de dados. 
+                    Muitos recursos disponíveis eram densos e difíceis para iniciantes entenderem. 
+                    Por isso, decidimos criar a empresa Learn Profit, com o objetivo de simplificar o ensino de 
+                    estrutura de dados. Nós queremos tornar o aprendizado dessa área crucial da ciência da computação acessível para 
+                    todos: desde os iniciantes até os profissionais experientes. Assim, o site Learn Profit foi 
                     lançado, oferecendo tutoriais  e materiais didáticos que explicam de maneira clara e prática 
                     os conceitos de estrutura de dados.</p>
             </section>

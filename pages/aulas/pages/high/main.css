@@ -57,7 +57,7 @@ header{
     font-size: 0.9em;
     justify-content: space-evenly;
     align-items: center;
-    width: 20em;
+    width: 30em;
     height: 60%;
     margin-left: -1.2em;
     border-radius: 0 1em 1em 0;
@@ -85,7 +85,8 @@ header{
     height: 2em;
     margin-top: .6em;
 }
-.aula, .suport{
+.aula, .suport, .questionario{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,10 +94,16 @@ header{
     height: 65%;
     transition: .25s;
 }
-.suport{
-    border-radius: 0 2em 2em 0;
+.questionario{
+    padding-left: 1em;
+    padding-right: 1em;
 }
-.aula:hover, .suport:hover{
+.aula{
+    padding-left: 1em;
+}
+.aula:hover, .suport:hover, .questionario:hover{
+    display: flex;
+    justify-content: center;
     background-color: var(--cor2);
     box-shadow: 0 0 10px var(--cor1);
     width: 70%;
